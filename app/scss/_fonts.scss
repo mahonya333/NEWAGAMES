@@ -1,0 +1,16 @@
+/*
+    Пример подключения шрифта woff/woff2
+    https://css-tricks.com/snippets/css/using-font-face/
+
+    @include fontFace('ProximaNova', '../fonts/ProximaNova-Regular/ProximaNova-Regular');
+*/
+
+@include fontFace('Pragmatica-Book', '../fonts/Pragmatica/Pragmatica-Book');
+
+@include fontFace('Pragmatica-Bold', '../fonts/Pragmatica/Pragmatica-Bold');
+@include fontFace('Pragmatica-BoldOblique', '../fonts/Pragmatica/Pragmatica-BoldOblique');
+
+@include fontFace('Pragmatica-Black', '../fonts/Pragmatica/Pragmatica-Black');
+
+
+
