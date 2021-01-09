@@ -45,82 +45,127 @@
                         <div class="header-content__info">
                             <h1 class="header-content__title">We make games</h1>
                             <div class="header-content__tabs">
-                                <button class="header-content-tab-btn">All</button>
-                                <button class="header-content-tab-btn">Mobile</button>
-                                <button class="header-content-tab-btn">Web</button>
-                                <button class="header-content-tab-btn">PC</button>
-                                <button class="header-content-tab-btn">Other</button>
+                                <button class="header-content-tab-btn" data-filter="all">All</button>
+                                <button class="header-content-tab-btn" data-filter="mobile">Mobile</button>
+                                <button class="header-content-tab-btn" data-filter="web">Web</button>
+                                <button class="header-content-tab-btn" data-filter="pc">PC</button>
+                                <button class="header-content-tab-btn" data-filter="other">Other</button>
                             </div>
+                            <div class="header-swiper-nav">
+                                <div class="swiper-container header-swiper-nav__container">
+                                    <div class="swiper-wrapper">
+    
+                                        <div class="swiper-slide mobile">
+                                            <p class="header-swiper-nav__game-genre">Hyper casual1</p>
+                                            <h4 class="header-swiper-nav__game-name">Sharm Farm</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide mobile">
+                                            <p class="header-swiper-nav__game-genre">Shooter1</p>
+                                            <h4 class="header-swiper-nav__game-name">Eco city</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide mobile">
+                                            <p class="header-swiper-nav__game-genre">ACTION-RPG1</p>
+                                            <h4 class="header-swiper-nav__game-name">Charms  of the witch</h4>
+                                        </div>
 
-                            <div class="swiper-container">
-                                <button class="swiper-button-prev"><img src="images/arrow-left-icon.svg" alt=""></button>
-                                <button class="swiper-button-next"><img src="images/arrow-right-icon.svg" alt=""></button>
-                                
-                                <div class="swiper-wrapper">
+                                        <div class="swiper-slide mobile">
+                                            <p class="header-swiper-nav__game-genre">Hyper casual2</p>
+                                            <h4 class="header-swiper-nav__game-name">Sharm Farm</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide web">
+                                            <p class="header-swiper-nav__game-genre">Shooter2</p>
+                                            <h4 class="header-swiper-nav__game-name">Eco city</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide web">
+                                            <p class="header-swiper-nav__game-genre">ACTION-RPG2</p>
+                                            <h4 class="header-swiper-nav__game-name">Charms  of the witch</h4>
+                                        </div>
 
-                                    <div class="swiper-slide">
-                                        <p class="header-content-swiper__game-genre">Hyper casual</p>
-                                        <h4 class="header-content-swiper__game-name">Sharm Farm</h4>
+                                        <div class="swiper-slide pc">
+                                            <p class="header-swiper-nav__game-genre">Hyper casual3</p>
+                                            <h4 class="header-swiper-nav__game-name">Sharm Farm</h4>
+                                        </div>
+
+                                        <div class="swiper-slide pc">
+                                            <p class="header-swiper-nav__game-genre">Shooter3</p>
+                                            <h4 class="header-swiper-nav__game-name">Eco city</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide pc">
+                                            <p class="header-swiper-nav__game-genre">ACTION-RPG3</p>
+                                            <h4 class="header-swiper-nav__game-name">Charms  of the witch</h4>
+                                        </div>
+
+                                        <div class="swiper-slide other">
+                                            <p class="header-swiper-nav__game-genre">Hyper casual4</p>
+                                            <h4 class="header-swiper-nav__game-name">Sharm Farm</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide other">
+                                            <p class="header-swiper-nav__game-genre">Shooter4</p>
+                                            <h4 class="header-swiper-nav__game-name">Eco city</h4>
+                                        </div>
+    
+                                        <div class="swiper-slide other">
+                                            <p class="header-swiper-nav__game-genre">ACTION-RPG4</p>
+                                            <h4 class="header-swiper-nav__game-name">Charms  of the witch</h4>
+                                        </div>
+    
                                     </div>
-
-                                    <div class="swiper-slide">
-                                        <p class="header-content-swiper__game-genre">Shooter</p>
-                                        <h4 class="header-content-swiper__game-name">Eco city</h4>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <p class="header-content-swiper__game-genre">ACTION-RPG</p>
-                                        <h4 class="header-content-swiper__game-name">Charms  of the witch</h4>
-                                    </div>
-                                    
-                                    <div class="swiper-slide">
-                                        <p class="header-content-swiper__game-genre">Shooter</p>
-                                        <h4 class="header-content-swiper__game-name">Eco city</h4>
-                                    </div>
-
+    
                                 </div>
-
+                                <div class="header-swiper-nav__buttons">
+                                    <button class="swiper-button-prev"><img src="images/arrow-left-icon.svg" alt=""></button>
+                                    <button class="swiper-button-next"><img src="images/arrow-right-icon.svg" alt=""></button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="header-slider-navigation">
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item1.png" alt="">
+                        <div class="header-swiper">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide header-swiper__item mobile">
+                                        <img class="header-swiper__img" src="images/slider-game-item1.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item mobile">
+                                        <img class="header-swiper__img" src="images/slider-game-item2.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item mobile">
+                                        <img class="header-swiper__img" src="images/slider-game-item3.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item web">
+                                        <img class="header-swiper__img" src="images/slider-game-item4.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item web">
+                                        <img class="header-swiper__img" src="images/slider-game-item5.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item web">
+                                        <img class="header-swiper__img" src="images/slider-game-item6.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item pc">
+                                        <img class="header-swiper__img" src="images/slider-game-item7.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item pc">
+                                        <img class="header-swiper__img" src="images/slider-game-item8.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item pc">
+                                        <img class="header-swiper__img" src="images/slider-game-item9.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item other">
+                                        <img class="header-swiper__img" src="images/slider-game-item10.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item other">
+                                        <img class="header-swiper__img" src="images/slider-game-item11.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide header-swiper__item other">
+                                        <img class="header-swiper__img" src="images/slider-game-item12.png" alt="">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item2.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item3.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item4.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item5.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item6.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item7.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item8.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item9.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item10.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item11.png" alt="">
-                            </div>
-                            <div class="header-slider-navigation__item">
-                                <img class="header-content__img" src="images/slider-game-item12.png" alt="">
-                            </div>
-
                         </div>
                     </div>
                 </div>
