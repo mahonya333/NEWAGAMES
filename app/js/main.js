@@ -7,7 +7,7 @@ const slider = document.querySelector('.header-swiper .swiper-container');
 let mySwiper = new Swiper(slider, {
     slidesPerView: 1,/* Количество слайдов для одновременного показа*/
     /* loop: true, *//* Бессконечная прокрутка */
-    loopedSlides: 12,
+    loopedSlides: 1,
     navigation: {
         nextEl: '.swiper-button-next',/* Кнопкиа навигации */
         prevEl: '.swiper-button-prev',/* Кнопка навигации */
@@ -19,9 +19,9 @@ let mySwiper = new Swiper(slider, {
 })
 /* Старт swiper-slider на странице ГЛАВНАЯ */
 let mySwiperNav = new Swiper(sliderNav, {
-    slidesPerView: 3,/* Количество слайдов для одновременного показа*/
+    slidesPerView: 1,/* Количество слайдов для одновременного показа*/
     /* loop: true, *//* Бессконечная прокрутка */
-    loopedSlides: 12,
+    loopedSlides: 1,
     spaceBetween: 55,/* Отступы между слайдами */
     navigation: {
         nextEl: '.swiper-button-next',/* Кнопкиа навигации */

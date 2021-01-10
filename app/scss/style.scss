@@ -112,7 +112,8 @@
 .header-swiper-nav {
     user-select: none;
     &__container {
-        padding-bottom: 7rem;
+        margin-bottom: 7rem;
+        border-bottom: 3px solid $color-white;
     }
     &__buttons {
         display: flex;
@@ -134,9 +135,9 @@
         color: $color-white;
     }
 
-    .swiper-slide-active {
+/*     .swiper-slide-active {
         border-bottom: 3px solid $color-white;
-    }
+    } */
 }
 
 .header-swiper-nav .swiper-button-prev,
