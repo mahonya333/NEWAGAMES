@@ -4,13 +4,32 @@
 @import "fonts";
 /* header start */
 .header {
-    background: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
     &__navigation-list {
         margin-left: 11rem;
+    }
+
+    &.all-games {
+        background: url("../images/header-bg.jpg");
+    }
+
+    &.mobile-games {
+        background: url("../images/header-bg2.jpg");
+    }
+
+    &.web-games {
+        background: url("../images/header-bg3.jpg");
+    }
+
+    &.pc-games {
+        background: url("../images/header-bg4.jpg");
+    }
+    
+    &.other-games {
+        background: url("../images/header-bg5.jpg");
     }
 }
 
@@ -107,6 +126,11 @@
     color: $color-white;
     background: transparent;
     outline: transparent;
+    opacity: 0.6;
+
+    &--active {
+        opacity: 1;
+    }
 }
 
 .header-swiper-nav {
