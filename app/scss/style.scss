@@ -8,10 +8,6 @@
     background-size: cover;
     background-position: center center;
 
-    &__navigation-list {
-        margin-left: 11rem;
-    }
-
     &.all-games {
         background: url("../images/header-bg.jpg");
     }
@@ -31,6 +27,11 @@
     &.other-games {
         background: url("../images/header-bg5.jpg");
     }
+
+    &__navigation-list {
+        margin-left: 11rem;
+    }
+
 }
 
 .navigation {
@@ -135,10 +136,31 @@
 
 .header-swiper-nav {
     user-select: none;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5.2rem;
+        height: 5.2rem;
+        margin-top: 0;
+        margin-right: 1.8rem;
+        position: static;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.75);
+        outline: transparent;
+        &::after {
+            content: "";
+        }
+    }
+
     &__container {
         margin-bottom: 7rem;
         border-bottom: 3px solid $color-white;
     }
+
     &__buttons {
         display: flex;
     }
@@ -158,29 +180,6 @@
         text-transform: uppercase;
         color: $color-white;
     }
-
-/*     .swiper-slide-active {
-        border-bottom: 3px solid $color-white;
-    } */
-}
-
-.header-swiper-nav .swiper-button-prev,
-.header-swiper-nav .swiper-button-next {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 5.2rem;
-    height: 5.2rem;
-    margin-top: 0;
-    margin-right: 1.8rem;
-    position: static;
-    border: none;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.75);
-    outline: transparent;
-    &::after {
-        content: "";
-    }
 }
 
 .header-swiper {
@@ -190,6 +189,7 @@
         outline: transparent;
     }
 }
+
 .hide {
     display: none;
     background: red;

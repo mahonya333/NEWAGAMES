@@ -1,6 +1,3 @@
-$(function () {
-
-});
 
 const sliderNav = document.querySelector('.header-swiper-nav .swiper-container');
 const slider = document.querySelector('.header-swiper .swiper-container');
@@ -32,7 +29,7 @@ let mySwiperNav = new Swiper(sliderNav, {
     observeParents: true,
     observeSlideChildren: true,
 
-    slideToClickedSlide: true,/* Переходим к кдикнутому слайду */
+    slideToClickedSlide: true,/* Переходим к кликнутому слайду */
 
     thumbs: {
         swiper: mySwiper
